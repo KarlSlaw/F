@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back-circle-outline" color="danger"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Login Docente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input #email required type="email" value placeholder="ejemplo@dominio.com"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input #password required type="password"></ion-input>
+  </ion-item>
+
+  <br>
+  <div *ngIf="mensaje;">
+     <!--  <h3 id="Error">Mensaje: {{mensaje}}</h3>  -->
+  </div>
+
+  <ion-row>
+    <ion-col size="12">
+      <ion-button (click)="notificar(email, password)" expand="block" type="submit" class="ion-no-margin"  shape="round" color="warning" >ingresar</ion-button>
+      <br>
+      <!-- (click)="notificar(email,password)"  no entiendo porque ya no funciona--> 
+    </ion-col>
+    <ion-col size="12">
+      <ion-button  expand="block" type="submit" class="ion-no-margin" routerLink="/recuperard" shape="round" >Restablecer contraseña</ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

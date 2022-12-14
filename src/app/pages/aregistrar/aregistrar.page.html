@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Registro Alumno</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-row>
+      <ion-col size="12">
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input #nombre required type="name" value placeholder="Pedrito"></ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+
+  <ion-item>
+    <ion-row>
+      <ion-col size="10">
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input #password required type="password"></ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+  <br>
+
+
+  <ion-button routerLink="../inicio" color="danger">
+    <ion-icon slot="icon-only" name="people-outline"></ion-icon> Registrar
+
+  </ion-button>
+  
+  
+
+</ion-content>

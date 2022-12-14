@@ -1,0 +1,41 @@
+{
+    "Alumno":
+    [
+        {"id": 1, "Nombre":"Mario", "Apellido": "Perez", "Password":"123","image": "Mario.png"},
+        {"id": 2, "Nombre":"Patricia", "Apellido": "Diaz", "Password":"123", "image": "pat.jpeg"},
+        {"id": 3, "Nombre":"Ana", "Apellido": "Cortez", "Password":"123","image": "ana.jpg"},
+        {"id": 4, "Nombre":"Luis", "Apellido": "Aros", "Password":"123","image": "Hugo.jpeg"},
+        {"id": 5, "Nombre":"Diego", "Apellido": "Lopez", "Password":"123", "image": "Diego.jpg"}
+  
+    ],
+  
+    "Profesor":
+    [
+        {"id": 1, "Nombre":"Patricio","Apellido":"Yañez", "email": "Prof.Patricio@duocuc.cl","Password":"123"},
+        {"id": 2, "Nombre":"José","Apellido":"Pino","email": "Prof.jose@duocuc.cl", "Password":"123"},
+        {"id": 3, "Nombre":"Gerardo","Apellido":"Cerda","email": "Prof.GerardoF@duocuc.cl", "Password":"123"},
+        {"id": 4, "Nombre":"Richard","Apellido":"Perez","email": "Prof.Richard@duocuc.cl", "Password":"123"}
+  
+    ],
+  
+    "Ramos":
+    [
+        {"id": 1, "Nombre":"Matematica", "Desc":"numero mas numeros", "image": "Mario.png"},
+        {"id": 2, "Nombre":"Lenguaje", "Desc":"La lengua es una bla bla bla", "image": "pat.jpeg"},
+        {"id": 3, "Nombre":"Inglés", "Desc":"ching chang chong", "image": "ana.jpg"},
+        {"id": 4, "Nombre":"Historia", "Desc":"soy fan de pinocho", "image": "Hugo.jpeg"},
+        {"id": 5, "Nombre":"Ciencias","Desc":"hace calor", "image": "Diego.jpg"}
+  
+    ],
+
+    "Seccion":
+    [
+        {"id": 1, "Nombre":"SEC1_001D", "idRamos":1, "idProfesor":1},
+        {"id": 2, "Nombre":"SEC2_001D", "idRamos":2, "idProfesor":2},
+        {"id": 3, "Nombre":"SEC3_001D", "idRamos":3, "idProfesor":3},
+        {"id": 4, "Nombre":"SEC4_001D", "idRamos":4, "idProfesor":4},
+        {"id": 5, "Nombre":"SEC5_001D", "idRamos":5, "idProfesor":5}
+  
+    ]
+  
+  } 
